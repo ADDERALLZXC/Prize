@@ -49,8 +49,12 @@
 }
 
 .prizes-text button {
-	background: rgb(1,162,254);
-	background: linear-gradient(90deg, rgba(1,162,254,1) 65%, rgba(5,98,211,1) 100%);
+	background: rgb(1, 162, 254);
+	background: linear-gradient(
+		90deg,
+		rgba(1, 162, 254, 1) 65%,
+		rgba(5, 98, 211, 1) 100%
+	);
 	border: 0;
 	color: #fff;
 	padding: 1% 4%;
@@ -65,8 +69,12 @@
 	text-transform: uppercase;
 	justify-content: flex-end;
 	font-weight: 400;
-	background: rgb(250,250,250);
-background: linear-gradient(90deg, rgba(250,250,250,1) 10%, rgba(212,213,215,1) 100%);
+	background: rgb(250, 250, 250);
+	background: linear-gradient(
+		90deg,
+		rgba(250, 250, 250, 1) 10%,
+		rgba(212, 213, 215, 1) 100%
+	);
 	padding: 1% 0;
 	text-align: center;
 	width: 63%;
@@ -86,8 +94,12 @@ background: linear-gradient(90deg, rgba(250,250,250,1) 10%, rgba(212,213,215,1) 
 .place h2 {
 	font-weight: 200;
 	font-size: 17px;
-	background: rgb(208,34,58);
-	background: linear-gradient(90deg, rgba(208,34,58,1) 20%, rgba(142,36,59,1) 100%);
+	background: rgb(208, 34, 58);
+	background: linear-gradient(
+		90deg,
+		rgba(208, 34, 58, 1) 20%,
+		rgba(142, 36, 59, 1) 100%
+	);
 	color: #fff;
 	border-radius: 8px;
 	width: 90%;
@@ -153,7 +165,6 @@ background: linear-gradient(90deg, rgba(250,250,250,1) 10%, rgba(212,213,215,1) 
 		z-index: 2;
 	}
 
-
 	.prizes-text {
 		width: 42%;
 	}
@@ -213,6 +224,11 @@ background: linear-gradient(90deg, rgba(250,250,250,1) 10%, rgba(212,213,215,1) 
 @media screen and (max-width: 550px) {
 	.prizes-text {
 		width: 90%;
+		text-align: left;
+	}
+
+	.car-image img {
+		width: 210%;
 	}
 
 	.places {
@@ -231,9 +247,17 @@ background: linear-gradient(90deg, rgba(250,250,250,1) 10%, rgba(212,213,215,1) 
 	.place span {
 		font-size: 10px;
 	}
+
+	.prizes-text button {
+		padding: 3% 15%;
+	}
 }
 
 @media screen and (max-width: 400px) {
+	.places {
+		height: 90px;
+	}
+
 	.place p {
 		font-size: 12px;
 	}
