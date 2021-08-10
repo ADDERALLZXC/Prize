@@ -222,14 +222,17 @@
 }
 
 @media screen and (max-width: 550px) {
-	body {
-		height: 100vh;
-		overflow: hidden;
-	}
-
 	.prizes-text {
 		width: 90%;
 		text-align: left;
+	}
+
+	.prizes-text h1 {
+		font-size: 20px;
+	}
+
+	.prizes-text p {
+		font-size: 16px;
 	}
 
 	.car-image img {
