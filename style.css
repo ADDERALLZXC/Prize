@@ -222,6 +222,11 @@
 }
 
 @media screen and (max-width: 550px) {
+	body {
+		height: 100vh;
+		overflow: hidden;
+	}
+
 	.prizes-text {
 		width: 90%;
 		text-align: left;
@@ -233,7 +238,7 @@
 
 	.places {
 		height: 120px;
-		bottom: 3%;
+		bottom: 2.5%;
 	}
 
 	.place p {
@@ -250,12 +255,14 @@
 
 	.prizes-text button {
 		padding: 3% 15%;
+		margin-top: 2%;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.places {
 		height: 90px;
+		bottom: 7%;
 	}
 
 	.place p {
