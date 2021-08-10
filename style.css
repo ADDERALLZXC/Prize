@@ -18,10 +18,12 @@
 .car-image {
 	width: 62%;
 	z-index: 2;
+	transform: rotateZ(-180deg);
+	transform: rotateY(180deg);
 }
 
 .car-image img {
-	width: 125%;
+	width: 120%;
 }
 
 .prizes-info__inner {
@@ -181,10 +183,15 @@
 	}
 
 	.car-image {
-		transform: rotateZ(180deg);
-		transform: rotateY(180deg);
 		margin-left: auto;
+		width: 85%;
 		padding-bottom: 135px;
+		transform: rotateZ(360deg);
+		transform: rotateY(360deg);
+	}
+
+	.car-image img {
+		width: 100%;
 	}
 
 	.prizes-text {
@@ -215,10 +222,6 @@
 	.prizes-text {
 		width: 70%;
 	}
-
-	.car-image img {
-		width: 180%;
-	}
 }
 
 @media screen and (max-width: 550px) {
@@ -233,10 +236,6 @@
 
 	.prizes-text p {
 		font-size: 16px;
-	}
-
-	.car-image img {
-		width: 195%;
 	}
 
 	.places {
